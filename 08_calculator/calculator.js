@@ -31,12 +31,13 @@ const factorial = function(number) {
     return 1;
   }
 
+  // slow way, fast way is recursive
   let fSum = 1;
   for (let i = 1; i <= number; i++) {
     fSum = fSum * i;
   }
 
-  return fSum
+  return fSum;
 };
 
 // Do not edit below this line
